@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>خانه</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadHome()">
+  <div class="container">
+    <h2>سلام <span id="username"></span> (<span id="userrole"></span>)</h2>
+    <p><b>پیام مدیر:</b></p>
+    <div id="latestMessage" class="message-box"></div>
+    <hr>
+    <a href="members.html">مشاهده اعضا</a><br>
+    <a href="message.html" id="sendMsgBtn" style="display:none">ارسال پیام عمومی</a><br>
+    <a href="index.html" onclick="logout()">خروج</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
